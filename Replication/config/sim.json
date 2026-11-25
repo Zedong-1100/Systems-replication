@@ -1,0 +1,150 @@
+{
+  "new_seed": 2026111605,
+  "calibration_pc1_target": 0.7020932612837374,
+  "cells": [
+    {
+      "id": "C_base",
+      "group": "anchor",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "B_original",
+      "group": "control",
+      "q": 0.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "A_original",
+      "group": "diagnostic",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 0,
+      "receivers": 0
+    },
+    {
+      "id": "C_q0p0",
+      "group": "factor",
+      "q": 0.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_q0p25",
+      "group": "factor",
+      "q": 0.25,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_q4p0",
+      "group": "factor",
+      "q": 4.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_link0p5",
+      "group": "link",
+      "q": 1.0,
+      "link_scale": 0.5,
+      "T": 550,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_link1p5",
+      "group": "link",
+      "q": 1.0,
+      "link_scale": 1.5,
+      "T": 550,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_T250",
+      "group": "sample",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 250,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_T1000",
+      "group": "sample",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 1000,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_T2500",
+      "group": "sample",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 2500,
+      "sources": 3,
+      "receivers": 8
+    },
+    {
+      "id": "C_sources1",
+      "group": "sources",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 1,
+      "receivers": 8
+    },
+    {
+      "id": "C_sources5",
+      "group": "sources",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 5,
+      "receivers": 8
+    },
+    {
+      "id": "C_receivers4",
+      "group": "receivers",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 3,
+      "receivers": 4
+    },
+    {
+      "id": "C_receivers12",
+      "group": "receivers",
+      "q": 1.0,
+      "link_scale": 1.0,
+      "T": 550,
+      "sources": 3,
+      "receivers": 12
+    },
+    {
+      "id": "C_calibrated",
+      "group": "calibration",
+      "q": "pc1_target",
+      "link_scale": 0.5599384431911083,
+      "T": 250,
+      "sources": 3,
+      "receivers": 8
+    }
+  ]
+}
